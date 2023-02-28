@@ -1,0 +1,8 @@
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+
+li.details-item:not(:last-child) {
+  margin-bottom: 10px;
+}
