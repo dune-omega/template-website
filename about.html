@@ -53,13 +53,24 @@
                     </div>
                 </nav>
         </header>
-        <section class="hero hero-short dark-background"
-            style="background-image: url('./assets/img/about_hero_1280x400.ashx'); --bkg-mobile: url('./assets/img/about_hero_1280x400.ashx'); --bkg-tablet: url('./assets/img/about_hero_1280x400.ashx'); --bkg-desktop: url('./assets/img/about_hero_1280x400.ashx'); --bkg-desktop-lg: url('./assets/img/about_hero_1280x400.ashx');">
-            <div class="hero-short__content">
+        <section 
+            style="background-image: url('./assets/img/about_hero_1280x400.ashx'); background-repeat: no-repeat; background-size: cover; height: 400px;   position: relative;">
+            <div style="content: '';
+            position: absolute;
+            top: 0%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #25408f;
+            z-index: 1;
+            opacity: 0.8; display: grid; 
+            place-content: center;">
+               <div style="text-align: center; color: white; width: 1200px;">
                 <h1 class="hero__title">
                     Global leader in real estate services and investment management
                 </h1>
                 <div class="hero__search"></div>
+               </div>
             </div>
         </section>
     </div>
